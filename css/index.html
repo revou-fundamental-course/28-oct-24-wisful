@@ -1,14 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-       <title>
-        
-       </title>>
+        <link rel="stylesheet" href="styles.css">
+        <title>Mini Coding Project-Kalkulator BMI</title>
+        <meta charset="UTF-8"> 
+        <meta name="author" content="wisful Alfaris Hariyanto">
+        <meta name="keywords" content="kalkulator bmi, indeks massa tubuh, berat badan ideal, kesehatan tubuh">
+        <meta name="description" content="Kalkulator BMI sederhana untuk menghitung indeks massa tubuh Anda. Cari tahu berat badan ideal Anda untuk menjaga kesehatan tubuh.">
+        <meta name="robots" content="index, follow">
     </head>
 <body>
+    <script src="./js/script.js"></script>
+    <main>
+        <!--Section Form-->
+        <section>
+                <header>
+                    <h1>Kalkulator BMI</h1>
+                </header>
+                <div>
+                    <article>
+                        <p>Berat badan adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang <br>penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat, Bagaimana denganmu? <br> Yuk, Hitung sekarang di kalkulator BMI</p>
+                    </article>
+                </div>
+                <form>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+                </form>
+                <article>
+                    <p>My First Heading</p>
+                </article>
+                <form class="color-section">
+                    <div>
+                        <label>Jenis Kelamin</label><br>
+                        <label for ="jenis-kelamin">pria</label>
+                        <input id="pria" type="radio" name="jenis-kelamin" value="pria"> 
+                        <label for ="jenis-kelamin">wanita</label>
+                        <input id="wanita" type="radio" name="jenis-kelamin" value="wanita"> 
+                    </div>
 
+                    <br>
+                    
+                    <div>
+                        <label for ="berat-badan">berat Badan (Kg)</label>
+                        <i class="fa-key icon"></i>
+                        <input id="berat-badan" type="number"/> 
+                    </div>
+
+                    <div>
+                        <label for ="Tahun">Usia (Tahun)</label>
+                        <input id="Tahun" type="number"/> 
+                    </div>
+                    <div>
+                        <label for ="Tinggi-badan">Tinggi badan (cm)</label>
+                        <input id="Tinggi-badan" type="number"/> 
+                    </div>
+                    <button>Hitung BMI</button>
+                    <button>Reset</button>
+                </form>
+                <div>
+                    <header>
+                        <h2>Keunggulan Fitur</h2>
+                        <p>1.Menghitung berat Badan<br>2.Menentukan kategori berat badan ideal atau tidak<br>3.mempersiapkan program penurunan berat badan</p>
+                    </header>
+                </div>
+        </section>
+        <!--Section Result-->
+        <section>
+            <header>
+                <h1>Hasil</h1>
+            </header>
+            <!--Hasil Kalkulasi-->
+            <div class="color-section text-center">
+                <h4>Hasil Kalkulasi:</h4>
+                <p id ="result">24.5</p>
+            </div>
+            <!--Info dari Hasil-->
+            <article>
+                <p>Lorem Ipsum Dolor Sit Amet Adipiscing..</p>
+            </article>
+    </section>
+</main>
+<footer>
+        <span><p>Author: Wisful Alfaris Hariyanto<br>
+            <a href="mailto:wisful.alfaris.com">wisful.alfaris@gmail.com</a></p>
+        </span>
+</footer>
 </body>
 </html>
